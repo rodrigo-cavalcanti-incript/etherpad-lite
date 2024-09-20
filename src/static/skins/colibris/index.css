@@ -5,7 +5,7 @@ form {
 }
 
 body {
-  background: url(images/fond.jpg) center center no-repeat fixed #fff;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0, #d3d3d3, #a9a9a9);
   font-family: Quicksand, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.42857143;
@@ -39,7 +39,7 @@ input {
 
 #label {
   text-shadow: none;
-  color: #FFF;
+  color: #000000;
   font-weight: normal;
   text-align: center;
 }
@@ -51,8 +51,8 @@ input {
   text-shadow: none;
   font-size: 23px;
   line-height: 1.8;
-  color: #64d29b;
-  background: #586a69;
+  color: #f5f5f5;
+  background: #165baa;
   border-radius: 3px;
   box-shadow: none;
   height: 53px;
@@ -65,8 +65,8 @@ button[type=submit] {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   left: 305px;
-  color: #64d29b;
-  background: #586a69;
+  color: #e7e8e9;
+  background: #165baa;
   border: none;
   top: 0;
   opacity: 1;
@@ -76,8 +76,8 @@ button[type=submit] {
 #button:hover,
 button[type=submit]:hover {
   cursor: pointer;
-  background: #4a5d5c;
-  color: #64d29b;
+  background: #01035e;
+  color: #ffffff;
 }
 
 #padname {

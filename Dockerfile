@@ -159,4 +159,4 @@ HEALTHCHECK --interval=5s --timeout=3s \
   CMD curl --silent http://localhost:9001/health | grep -E "pass|ok|up" > /dev/null || exit 1
 
 EXPOSE 9001
-CMD ["pnpm", "run", "prod"]
+CMD ["pnpm", "run", "dev"]

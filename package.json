@@ -34,7 +34,8 @@
     "makeDocs": "pnpm --filter bin run makeDocs"
   },
   "dependencies": {
-    "ep_etherpad-lite": "workspace:./src"
+    "ep_etherpad-lite": "workspace:./src",
+    "tsx": "^4.19.1"
   },
   "devDependencies": {
     "admin": "workspace:./admin",

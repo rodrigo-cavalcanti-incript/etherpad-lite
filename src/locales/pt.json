@@ -51,7 +51,7 @@
 	"admin_settings.current_restart.value": "Reiniciar Etherpad",
 	"admin_settings.current_save.value": "Guardar Definições",
 	"admin_settings.page-title": "Definições - Etherpad",
-	"index.newPad": "Nova Nota",
+	"index.newPad": "Novo Contrato",
 	"index.createOpenPad": "ou cria/abre uma nota com o nome:",
 	"index.openPad": "abrir uma Nota existente com o nome:",
 	"pad.toolbar.bold.title": "Negrito (Ctrl+B)",
