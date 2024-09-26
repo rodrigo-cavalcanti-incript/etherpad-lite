@@ -11,7 +11,7 @@ services:
       - postgres
     environment:
       NODE_ENV: production
-      ADMIN_PASSWORD: ${DOCKER_COMPOSE_APP_ADMIN_PASSWORD:-admin}
+      ADMIN_PASSWORD: "admin"
       DB_CHARSET: ${DOCKER_COMPOSE_APP_DB_CHARSET:-utf8mb4}
       DB_HOST: postgres
       DB_NAME: ${DOCKER_COMPOSE_POSTGRES_DATABASE:-etherpad}

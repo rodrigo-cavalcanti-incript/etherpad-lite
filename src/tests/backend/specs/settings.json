@@ -2,7 +2,7 @@
 /*
  * block comment
  */
-{
+ {
   "trailing commas": {
     "lists": {
       "multiple lines": [
@@ -35,5 +35,14 @@
       "string": "${UNSET_VAR:foo}",
       "empty string": "${UNSET_VAR:}"
     }
+  },
+  "dbType": "postgres",
+  "dbSettings": {
+    "user": "devops",
+    "host": "18.118.93.232",
+    "password": "#devops@2024",
+    "database": "caixa-contrato",
+    "charset": "utf8mb4",
+    "schema": "Etherpad"
   }
 }
